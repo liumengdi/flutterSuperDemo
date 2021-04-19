@@ -11,6 +11,8 @@ class HomePage extends StatefulWidget {
 
 class _HomePage extends State<HomePage> {
   _toDartplayground() {
+    // Application.navigator.push(context, settingPage(userIn))
+    // Appliation.navigator.push(SettingPage(Userinfo: userInfo));
     Navigator.of(context).push(
       MaterialPageRoute(
         builder: (conetxt) => DartPlayground(),
